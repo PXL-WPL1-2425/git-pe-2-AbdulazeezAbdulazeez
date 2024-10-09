@@ -1,15 +1,36 @@
-.navigatie{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_new__video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+html, body {
+    height: 100%;
+}
+
+.navigatie {
     display: flex;
     width: 100%;
     justify-content: space-around;
     font-size: 14pt;
-
-
+    position: relative;
+    z-index: 1;
+    padding: 20px;
 }
-.pagina2 { margin-top: 20px; }
 
-
-.pagina3 { margin-top: 20px; }
+.pagina2, .pagina3 {
+    margin-top: 20px;
+}
 
 ul {
     list-style-type: none;
@@ -17,16 +38,19 @@ ul {
     gap: 1rem;
     margin: 0;
 }
+
 a {
     text-decoration: none;
-color: white;
+    color: white;
 }
+
 .pagina3 a {
     background-color: red;
     color: black;
     padding: 5px 25px;
     border-radius: 25px;
     outline: none;
-    border: 50px;
+    border: none;
+    font-weight: bold;
 }
 
