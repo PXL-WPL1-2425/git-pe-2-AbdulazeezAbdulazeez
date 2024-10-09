@@ -1,7 +1,8 @@
 .navigatie{
     display: flex;
     width: 100%;
-    justify-content: space-around
+    justify-content: space-around;
+    font-size: 14pt;
 
 
 }
@@ -9,3 +10,14 @@
 
 
 .pagina3 { margin-top: 20px; }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+color: white;
+}
